@@ -9,3 +9,5 @@ layout: default
 [LinkedIn](https://www.linkedin.com/in/john-willard-6173b861/)
 
 Email: [willard.john.gray@gmail.com](mailto:willard.john.gray@gmail.com)
+
+[SICP](/sicp)

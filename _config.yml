@@ -18,20 +18,25 @@ description: >- # this means to ignore newlines until "baseurl:"
   John Willard's site
 domain: "jgwillard.com" # the subpath of your site, e.g. /blog
 url: "https://jgwillard.com/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: /_site
 github_username: jgwillard
+
+collections:
+  sicp_exercises:
+    output: true
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
+mathjax: true
+# plugins:
+#   - jekyll-feed
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  - vendor/
+  - vendor
   - CNAME
-  - bin/
+  - bin
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
