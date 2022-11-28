@@ -1,4 +1,5 @@
 ---
+title: SICP Exercises
 layout: default
 ---
 

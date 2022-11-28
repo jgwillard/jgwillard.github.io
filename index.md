@@ -10,4 +10,4 @@ layout: default
 
 Email: [willard.john.gray@gmail.com](mailto:willard.john.gray@gmail.com)
 
-[SICP](/sicp)
+[Writings](/writings)

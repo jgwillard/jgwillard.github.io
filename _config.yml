@@ -21,8 +21,11 @@ url: "https://jgwillard.com" # the base hostname & protocol for your site, e.g. 
 github_username: jgwillard
 
 collections:
+  writings:
+    output: true
   sicp_exercises:
     output: true
+    permalink: /writings/:collection/:name
 
 # Build settings
 markdown: kramdown
