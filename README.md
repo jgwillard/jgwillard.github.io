@@ -5,4 +5,4 @@
 1. Install `rbenv`
 2. `eval "$(rbenv init - zsh)"`
 3. `bundler install --binstubs --path vendor`
-4. `bundle exec jekyll build`
+4. `bundle exec jekyll serve`
