@@ -26,6 +26,9 @@ collections:
   sicp_exercises:
     output: true
     permalink: /writings/:collection/:name
+  translations:
+    output: true
+    permalink: /writings/:collection/:name
 
 # Build settings
 markdown: kramdown
