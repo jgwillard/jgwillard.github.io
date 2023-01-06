@@ -1,7 +1,7 @@
 ---
 title: Three Versions of Judas
 author: Jorge Luis Borges
-layout: translations
+layout: collection_doc
 ---
 
 "There seemed a certainty in degradation." - T. E. Lawrence, _Seven Pillars of Wisdom_, CIII.

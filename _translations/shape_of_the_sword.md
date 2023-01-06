@@ -1,7 +1,7 @@
 ---
 title: The Shape of the Sword
 author: Jorge Luis Borges
-layout: translations
+layout: collection_doc
 ---
 
 A rancorous scar crossed his face: an ashen, almost perfect arc that wrinkled his temple on one side and his cheekbone on the other. His real name doesn't matter; everyone in Tacuarembó called him the Englishman of _La Colorada_. The owner of those grounds, Cardoso, didn't want to sell; I heard that the Englishman resorted to an unforeseeable argument: he confided in him the scar's secret history. The Englishman came from the borderlands, from Río Grande del Sur; more than a few said that in Brazil he had been a smuggler. The grounds were swollen, the water supplies bitter; the Englishman, to correct those deficiencies, labored alongside his workers. They say he was severe to the point of cruelty, but scrupulously fair. They also say he was a drinker; a couple times a year he would lock himself in the room of the tower and emerge two or three days later as if from a battle or a frenzy, pale, tremulous, startled and as authoritarian as before. I remember the glacial eyes, the energetic thinness, the gray moustache. He didn't see anyone; it's true that his Spanish was rudimentary, Brazilianized. Other than some business letters or brochures, he didn't receive any correspondence.

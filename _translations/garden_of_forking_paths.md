@@ -1,7 +1,7 @@
 ---
 title: The Garden of Forking Paths
 author: Jorge Luis Borges
-layout: translations
+layout: collection_doc
 ---
 
 To Victoria Ocampo

@@ -29,6 +29,9 @@ collections:
   translations:
     output: true
     permalink: /writings/:collection/:name
+  wireshark_labs:
+    output: true
+    permalink: /writings/:collection/:name
 
 # Build settings
 markdown: kramdown
