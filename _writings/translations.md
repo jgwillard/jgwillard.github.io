@@ -6,5 +6,9 @@ layout: default
 # Translations
 
 {% for work in site.translations %}
-<a href="{{work.url}}">{{work.title}}</a>
+
+- [{{work.title}}]({{work.url}})
+
 {% endfor %}
+
+{% include back_to_writings.html %}

@@ -2,11 +2,6 @@
 <html lang="en-US">
   {% include head.html %}
   <body>
-    <nav>
-      {%- if page.url != "/" -%}
-      <p><a href="{{ site.url }}">Back to homepage</a></p>
-      {%- endif -%}
-    </nav>
-    {{ content }}
+    {% include nav.html %} {{ content }}
   </body>
 </html>
