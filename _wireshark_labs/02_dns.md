@@ -22,3 +22,7 @@ layout: collection_doc
 17. DNS query message is of type "NS" and contains no answers
 18. DNS response message provides nameserver dcsb.akamaiedge.net; no IP address is provided
 19. ![DNS response 2](/assets/dns_response_2.png)
+20. Destination IP address is 2.16.40.64, corresponding to that of an authoritative nameserver for mit.edu, use5.akam.net (command run was `nslookup www.aiit.or.kr use5.akam.net`)
+21. DNS query is of type "A" and contains no answers
+22. No answers are provided; response was "Refused" (it appears that standard practice is for an authoritative nameserver to respond "Refused" to queries for any domain names for which it is not authoritative; perhaps at the time this lab was created MIT and AIIT shared authoritative DNS servers ([see this ServerFault post](https://serverfault.com/questions/892622/what-rfc-encourages-dns-servers-to-reply-refused-to-queries-for-unknown-domains)). Some geographically close schools did appear to share authoritative nameservers, for example MIT and Harvard, and W&M and ODU)
+23. ![DNS response 2](/assets/dns_response_3.png)
