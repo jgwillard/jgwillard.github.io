@@ -1,5 +1,5 @@
 ---
-title: DHCP
+title: ICMP
 layout: collection_doc
 ---
 
