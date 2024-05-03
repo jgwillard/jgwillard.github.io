@@ -21,3 +21,7 @@ layout: collection_doc
    ```
 10. The hexadecimal value for the source address of the Ethernet frame containing the ARP request message is `00:d0:59:a9:3d:68`. The hex value for the destination address of the frame is `ff:ff:ff:ff:ff:ff`.
 11. The hex value for the two-bye frame field is `0x0806`, corresponding to ARP.
+12. The ARP opcode field begins at byte 20 (`0x14`) of the Ethernet frame. The value of the opcode field is `0x0001`. The ARP message contains the address of the sender. The "question" in the ARP message appears in the last four bytes of the request (the Target IP address field).
+13. The ARP opcode field begins at byte 20 (`0x14`) of the Ethernet frame. The value of the opcode field is `0x0002`. The "answer" in the ARP message appears in bytes 22-27 of the Ethernet frame (the Sender MAC address/HA field).
+14. The hexadecimal values of the source and destination addresses of the ARP reply message are `00:06:25:da:af:73` and `00:d0:59:a9:3d:68` respectively.
+15. There may be no reply to the second ARP request because the IP address requested has been disconnected from the network.
