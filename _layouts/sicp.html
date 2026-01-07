@@ -13,4 +13,21 @@
     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
   ></script>
   {%- endif -%}
+  {%- if page.has_graph -%}
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll("code.language-mermaid").forEach(code => {
+        const pre = code.parentElement;
+        const div = document.createElement("div");
+        div.className = "mermaid";
+        div.textContent = code.textContent;
+        pre.replaceWith(div);
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({startOnLoad: true});
+  </script>
+  {%- endif -%}
 </html>
